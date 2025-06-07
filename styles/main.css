@@ -135,7 +135,7 @@ h1{
     font-size: 24px;
     line-height: 1.50em;
     max-width: 460px;
-    text-align: center;
+    color: #fff;
 }
 
 .header-button {
@@ -191,7 +191,7 @@ h1{
 }
 .video__inner {
     display: flex;
-    padding: 95px 0;
+    padding: 95px 0 70px;
     gap: 125px;
 }
 .video-content {
@@ -278,7 +278,6 @@ video{
 p{
     font-size: 12px;
     line-height: 1.50em;
-    text-align: center;
     color: #101010;
 }
 .overview__item-content a{
@@ -329,4 +328,40 @@ p{
     color: #101010;
     margin-top: 8px;
     margin-bottom: 11px;
+}
+
+/* Download */
+
+.download {
+    background-color: var(--main-color);
+}
+.download__inner {
+    display: flex;
+    gap: 120px;
+    padding: 94px 0 70px;
+}
+
+.download-content{
+    max-width: 450px;
+}
+.download-content h2{
+    margin: 25px 0 50px;
+}
+
+.download-content h2, .download-content p{
+    color: #fff;
+}
+
+.download-content p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 1.40em;
+    text-align: justify;
+    color: #fff;
+}
+
+.download-icon-box {
+    margin-top: 42px;
+    display: flex;
+    gap: 20px;
 }
