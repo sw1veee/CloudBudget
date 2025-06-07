@@ -420,6 +420,7 @@ p{
 /* Footer */
 
 .footer {
+    background-color: #fafafa;
 }
 .footer__inner {
     padding: 43px 3px 3px;
