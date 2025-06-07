@@ -202,13 +202,13 @@ h2{
     font-weight: 500;
     font-size: 36px;
 }
-p{
+.video p{
     font-size: 14px;
     line-height: 1.40em;
-}
-.video p{
     text-align: justify;
+
 }
+
 a{
     display: block;
     font-size: 12px;
@@ -247,6 +247,7 @@ video{
 .overview__flex{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 80px;
 }
 
@@ -274,8 +275,7 @@ video{
     border-radius: 8px;
 }
 
-.overview__item-content p{
-    width: 100%;
+p{
     font-size: 12px;
     line-height: 1.50em;
     text-align: center;
@@ -284,4 +284,49 @@ video{
 .overview__item-content a{
     font-size: 12px;
     letter-spacing: 0.01em;
+}
+
+.tech {
+}
+.tech__inner {
+    text-align: center;
+    padding-bottom: 117px;
+}
+
+.tech__inner h2{
+    padding: 63px 0 73px;
+}
+
+.tech__flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.tech__flex-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 226px;
+    max-width: 255px;
+    padding: 50px 30px 0;
+}
+.behind-num {
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+    top: 0;
+}
+
+.tech__flex-item h3{
+    font-weight: 500;
+    font-size: 18px;
+    color: #101010;
+    margin-top: 8px;
+    margin-bottom: 11px;
 }
