@@ -147,10 +147,10 @@ h1{
 
 .button:active{
     transform: scale(88%);
-    background-color: #fff;
 }
 
 .outline-button:active{
+    background-color: #fff;
     color: #ED4C5C;
 }
 
@@ -415,4 +415,8 @@ p{
     padding: 17px 40px;
     background-color: var(--main-color);
     color: #fff;
+}
+
+.form-button:active{
+
 }
